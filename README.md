@@ -4,7 +4,7 @@
 
    ```bash
    git clone https://github.com/windrase/dingdong.git
-   cd botdor
+   cd dingdong
    ```
 
 2. Buat virtual environment (opsional tapi disarankan):
