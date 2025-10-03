@@ -1601,7 +1601,9 @@ async def handle_menu_selection(update: Update, context: ContextTypes.DEFAULT_TY
         except ValueError:
             await update.message.reply_text("❌ Invalid input. Please enter a valid number.")
             return
-    
+            
+    elif text == "🚪 Pilih Nomor":
+        await show_account_management(update, context)
     if text == "💰 Account Info":
         await show_account_info(update, context)
     elif text == "📦 My Packages":
@@ -1610,8 +1612,6 @@ async def handle_menu_selection(update: Update, context: ContextTypes.DEFAULT_TY
         await show_buy_packages_menu(update, context)
     elif text == "🌐 Buy VPN":
         await show_vpn_info(update, context)
-    elif text == "🚪 Pilih Nomor":
-        await show_account_management(update, context)
     elif text == "💝 Donate":
         await show_donation_info(update, context)
     elif text == "🚪 Logout":
@@ -1625,8 +1625,7 @@ async def handle_menu_selection(update: Update, context: ContextTypes.DEFAULT_TY
 
 
     async def show_account_management(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        user_id = update.effective_user.id
-        saved_accounts = self.get_user_accounts(user_id)
+        user = auth_instance.get_active_user(context)
         
         if not saved_accounts:
             await update.callback_query.edit_message_text("❌ Tidak ada akun tersimpan")
@@ -1643,8 +1642,6 @@ async def handle_menu_selection(update: Update, context: ContextTypes.DEFAULT_TY
         await update.callback_query.edit_message_text(
             "👥 Akun Tersimpan:",
             reply_markup=InlineKeyboardMarkup(keyboard)
-        )
-
 
 async def show_account_info(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Show account information."""
@@ -3028,6 +3025,7 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
+
 
 
 
