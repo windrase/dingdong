@@ -2784,20 +2784,18 @@ async def show_vpn_info(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     """Show VPN information and purchase options."""
     try:
         # VPN information directly in code instead of reading from vpn.md
-        message = "🌐 *DOYSTORE VPN*\n\n"
-        message += "*Donate for bot development by purchasing premium VPN at @doystorevpn*\n\n"
+        message = "🌐 *WINTUNELING VPN*\n\n"
+        message += "*purchasing premium VPN at @WINTUNELING_VPN_BOT*\n\n"
         message += "*Available:*\n\n"
         message += "Premium VPN for SSH/VMESS/VLESS/TROJAN protocols\n\n"
         message += "*Servers:*\n\n"
-        message += "🇮🇩 ID Infinys - Rp 10,000\n"
-        message += "🇮🇩 ID Biznet - Rp 10,000\n"
-        message += "🇮🇩 ID Atha - Rp 10,000\n"
-        message += "🇮🇩 ID Nusa - Rp 10,000\n"
-        message += "🇸🇬 SG Tencent - Rp 9,000\n\n"
+        message += "🇮🇩 ID Aren - Rp 8,000\n"
+        message += "🇸🇬 SG Tencent - Rp 6,000\n"
+        message += "🇸🇬 SG Digital Ocean - Rp 8,000\n\n"
         message += "*Note:*\n\n"
-        message += "STB-specific servers cost an additional Rp 2,000 ‼️\n\n"
-        message += "💰 *Payment via QRIS/Dana/Shopeepay*\n\n"
-        message += "To purchase a Premium VPN, please contact: @doystorevpn"
+        message += "STB-specific servers is not allowed ‼️\n\n"
+        message += "💰 *Topup Via Saldo Qris\n\n"
+        message += "To purchase a Premium VPN, please contact: @WINTUNELINGVPNN"
         
         await update.message.reply_text(message, parse_mode='Markdown')
     except Exception as e:
@@ -3005,4 +3003,5 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
+
 
