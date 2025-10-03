@@ -1641,7 +1641,7 @@ async def handle_menu_selection(update: Update, context: ContextTypes.DEFAULT_TY
         
         await update.callback_query.edit_message_text
         ("👥 Akun Tersimpan:"(
-        InlineKeyboardButton("🔙 Back", callback_data="main_menu")]
+        InlineKeyboardButton("🔙 Back", callback_data="main_menu")])
         
 
 async def show_account_info(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -3026,6 +3026,7 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
+
 
 
 
