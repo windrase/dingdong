@@ -1899,7 +1899,7 @@ async def show_main_menu_query(update: Update, context: ContextTypes.DEFAULT_TYP
         [KeyboardButton("🛒 Buy Packages")],
         [KeyboardButton("🌐 Buy VPN"), KeyboardButton("💝 Donate")],
         [KeyboardButton("🚪 Logout"), KeyboardButton("🚪 Pilih Nomor")]]
-    ]
+    
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
     
     # Get user info
@@ -3028,5 +3028,6 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
+
 
 
