@@ -1934,10 +1934,8 @@ def get_package_xut_for_user(context: ContextTypes.DEFAULT_TYPE):
             for option in variant["package_options"]:
                 friendly_name = option["name"]
                 
-                if friendly_name.lower() == "vidio":
-                    friendly_name = "🔥 HOT! Unli Turbo Vidio"
-                if friendly_name.lower() == "iflix":
-                    friendly_name = "🔥 HOT! Unli Turbo Iflix"
+                if friendly_name.lower() == "biz lite":
+                    friendly_name = "🔥 HOT! Biz Lite"
                     
                 packages.append({
                     "number": start_number,
@@ -3005,4 +3003,5 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
+
 
