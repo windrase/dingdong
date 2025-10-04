@@ -1260,17 +1260,17 @@ async def send_error_to_admin(message: str):
         except Exception as e:
             logger.error("Failed to send error to admin: %s", e)
 
-# XUT package code
-PACKAGE_FAMILY_CODE = "08a3b1e6-8e78-4e45-a540-b40f06871cfe"
+# biz package code
+PACKAGE_FAMILY_CODE = "f3303d95-8454-4e80-bb25-38513d358a11"
 
-def get_package_xut():
+def get_package_biz():
     global api_key
     # Get active user from context
     # This function will be called with proper context in the bot handlers
     pass
 
 # Global variable to store packages for reference by index
-xut_packages_cache = {}
+biz_packages_cache = {}
 
 # Global variable for family packages cache (index -> package)
 family_packages_cache = {}
@@ -1778,7 +1778,7 @@ async def show_buy_packages_menu(update: Update, context: ContextTypes.DEFAULT_T
         return
     
     keyboard = [
-        [InlineKeyboardButton("🔥 XUT Packages", callback_data="buy_xut")],
+        [InlineKeyboardButton("🔥 BIZ Lite Packages", callback_data="buy_biz")],
         [InlineKeyboardButton("👨‍👩‍👧‍👦 Buy by Family Code (YTTA)", callback_data="buy_family_code")],
         [InlineKeyboardButton("🏢 Buy by Family Code (Enterprise)", callback_data="buy_family_code_enterprise")],
         [InlineKeyboardButton("🔙 Back", callback_data="main_menu")]
@@ -1795,15 +1795,15 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     query = update.callback_query
     await query.answer()
     
-    if query.data == "buy_xut":
-        await show_xut_packages(update, context, query)
+    if query.data == "buy_biz":
+        await show_biz_packages(update, context, query)
     elif query.data == "buy_family_code":
         # Ask user for family code
         await query.message.reply_text("👨‍👩‍👧‍👦 Please enter the Family Code:")
         # Set state to expect family code input
         context.user_data['awaiting_family_code'] = True
         # Set enterprise mode to False
-        context.user_data['is_enterprise'] = False
+        context.user_data['is_enterprise'] = True
     elif query.data == "buy_family_code_enterprise":
         # Ask user for family code for enterprise packages
         await query.message.reply_text("🏢 Please enter the Enterprise Family Code:")
@@ -1817,8 +1817,8 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
             # Extract package index
             package_index = int(query.data[4:])  # Remove "pkg_" prefix
             # Get package from cache
-            if package_index in xut_packages_cache:
-                package = xut_packages_cache[package_index]
+            if package_index in biz_packages_cache:
+                package = biz_packages_cache[package_index]
                 await show_package_details(update, context, query, package)
             else:
                 await query.message.reply_text("❌ Package not found. Please try again.")
@@ -1850,8 +1850,8 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
             package_index = int(parts[2])  # Get package index
             # Get package from cache
             package = None
-            if package_index in xut_packages_cache:
-                package = xut_packages_cache[package_index]
+            if package_index in biz_packages_cache:
+                package = biz_packages_cache[package_index]
             elif package_index in family_packages_cache:
                 package = family_packages_cache[package_index]
             
@@ -2034,14 +2034,14 @@ def get_packages_by_family_code_for_user(context: ContextTypes.DEFAULT_TYPE, fam
         return None
 
 async def show_xut_packages(update: Update, context: ContextTypes.DEFAULT_TYPE, query) -> None:
-    """Show XUT packages."""
+    """Show Biz packages."""
     user = auth_instance.get_active_user(context)
     if not user:
         await query.message.reply_text("❌ No active user found. Please login first.")
         return
         
     try:
-        packages = get_package_xut_for_user(context)
+        packages = get_package_biz_for_user(context)
         if not packages:
             await query.message.reply_text("❌ Failed to fetch XUT packages.")
             return
@@ -3003,4 +3003,5 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
+
 
