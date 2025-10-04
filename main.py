@@ -1260,17 +1260,17 @@ async def send_error_to_admin(message: str):
         except Exception as e:
             logger.error("Failed to send error to admin: %s", e)
 
-# biz package code
+# XUT package code
 PACKAGE_FAMILY_CODE = "f3303d95-8454-4e80-bb25-38513d358a11"
 
-def get_package_biz():
+def get_package_xut():
     global api_key
     # Get active user from context
     # This function will be called with proper context in the bot handlers
     pass
 
 # Global variable to store packages for reference by index
-biz_packages_cache = {}
+xut_packages_cache = {}
 
 # Global variable for family packages cache (index -> package)
 family_packages_cache = {}
@@ -1320,7 +1320,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
     user = update.effective_user
     
-    message = f"👋 Hi {user.first_name} {int(user.id)}! Welcome to DOR DOR YTTA XL Bot.\n\n"
+    message = f"👋 Hi {user.first_name}! Welcome to DoyDor XL Bot.\n\n"
     message += "I can help you manage your XL account right from Telegram!\n\n"
     
     # Check if user is already logged in
@@ -1778,7 +1778,7 @@ async def show_buy_packages_menu(update: Update, context: ContextTypes.DEFAULT_T
         return
     
     keyboard = [
-        [InlineKeyboardButton("🔥 BIZ Lite Packages", callback_data="buy_biz")],
+        [InlineKeyboardButton("🔥 Biz Lite Packages", callback_data="buy_xut")],
         [InlineKeyboardButton("👨‍👩‍👧‍👦 Buy by Family Code (YTTA)", callback_data="buy_family_code")],
         [InlineKeyboardButton("🏢 Buy by Family Code (Enterprise)", callback_data="buy_family_code_enterprise")],
         [InlineKeyboardButton("🔙 Back", callback_data="main_menu")]
@@ -1795,14 +1795,14 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     query = update.callback_query
     await query.answer()
     
-    if query.data == "buy_biz":
-        await show_biz_packages(update, context, query)
+    if query.data == "buy_xut":
+        await show_xut_packages(update, context, query)
     elif query.data == "buy_family_code":
         # Ask user for family code
         await query.message.reply_text("👨‍👩‍👧‍👦 Please enter the Family Code:")
         # Set state to expect family code input
         context.user_data['awaiting_family_code'] = True
-        # Set enterprise mode to False
+        # Set enterprise mode to True
         context.user_data['is_enterprise'] = True
     elif query.data == "buy_family_code_enterprise":
         # Ask user for family code for enterprise packages
@@ -1817,8 +1817,8 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
             # Extract package index
             package_index = int(query.data[4:])  # Remove "pkg_" prefix
             # Get package from cache
-            if package_index in biz_packages_cache:
-                package = biz_packages_cache[package_index]
+            if package_index in xut_packages_cache:
+                package = xut_packages_cache[package_index]
                 await show_package_details(update, context, query, package)
             else:
                 await query.message.reply_text("❌ Package not found. Please try again.")
@@ -1850,8 +1850,8 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
             package_index = int(parts[2])  # Get package index
             # Get package from cache
             package = None
-            if package_index in biz_packages_cache:
-                package = biz_packages_cache[package_index]
+            if package_index in xut_packages_cache:
+                package = xut_packages_cache[package_index]
             elif package_index in family_packages_cache:
                 package = family_packages_cache[package_index]
             
@@ -1912,8 +1912,8 @@ async def show_main_menu_query(update: Update, context: ContextTypes.DEFAULT_TYP
     
     await query.message.reply_text(message, reply_markup=reply_markup, parse_mode='Markdown')
 
-def get_package_biz_for_user(context: ContextTypes.DEFAULT_TYPE):
-    """Get biz packages for the current user"""
+def get_package_xut_for_user(context: ContextTypes.DEFAULT_TYPE):
+    """Get XUT packages for the current user"""
     global api_key
     user = auth_instance.get_active_user(context)
     if not user:
@@ -1952,13 +1952,13 @@ def get_package_biz_for_user(context: ContextTypes.DEFAULT_TYPE):
         # Handle rate limit errors
         error_msg = str(e)
         if "too many requests" in error_msg.lower():
-            print("Rate limit exceeded when fetching biz packages")
+            print("Rate limit exceeded when fetching XUT packages")
             raise ValueError("Too many requests. Please wait before trying again.")
         else:
-            logger.error("Error fetching biz packages: %s", e, exc_info=True)
+            logger.error("Error fetching XUT packages: %s", e, exc_info=True)
             return None
     except Exception as e:
-        logger.error("Error fetching biz packages: %s", e, exc_info=True)
+        logger.error("Error fetching XUT packages: %s", e, exc_info=True)
         return None
 
 def get_packages_by_family_code_for_user(context: ContextTypes.DEFAULT_TYPE, family_code: str, is_enterprise: bool = False):
@@ -2033,27 +2033,27 @@ def get_packages_by_family_code_for_user(context: ContextTypes.DEFAULT_TYPE, fam
         print(f"Error fetching packages for family code {family_code}: {str(e)}")
         return None
 
-async def show_bizpackages(update: Update, context: ContextTypes.DEFAULT_TYPE, query) -> None:
-    """Show Biz packages."""
+async def show_xut_packages(update: Update, context: ContextTypes.DEFAULT_TYPE, query) -> None:
+    """Show XUT packages."""
     user = auth_instance.get_active_user(context)
     if not user:
         await query.message.reply_text("❌ No active user found. Please login first.")
         return
         
     try:
-        packages = get_package_biz_for_user(context)
+        packages = get_package_xut_for_user(context)
         if not packages:
-            await query.message.reply_text("❌ Failed to fetch biz packages.")
+            await query.message.reply_text("❌ Failed to fetch XUT packages.")
             return
             
         # Clear and update package cache
-        global biz_packages_cache
-        biz_packages_cache.clear()
+        global xut_packages_cache
+        xut_packages_cache.clear()
         
         keyboard = []
         for i, pkg in enumerate(packages):
             # Store package in cache with index as key
-            biz_packages_cache[i] = pkg
+            xut_packages_cache[i] = pkg
             
             # Use shorter callback data with index
             button = InlineKeyboardButton(
@@ -2067,7 +2067,7 @@ async def show_bizpackages(update: Update, context: ContextTypes.DEFAULT_TYPE, q
         
         reply_markup = InlineKeyboardMarkup(keyboard)
         
-        message = "🔥 *biz Packages*\n\n"
+        message = "🔥 *XUT Packages*\n\n"
         message += "Please select a package to purchase:"
         
         await query.message.reply_text(message, reply_markup=reply_markup, parse_mode='Markdown')
@@ -2077,11 +2077,11 @@ async def show_bizpackages(update: Update, context: ContextTypes.DEFAULT_TYPE, q
         if "too many requests" in error_msg.lower():
             await query.message.reply_text("⏰ Too many requests. Please wait a moment and try again.")
         else:
-            logger.error("Error fetching biz packages: %s", e, exc_info=True)
-            await query.message.reply_text("❌ Error fetching biz packages.")
+            logger.error("Error fetching XUT packages: %s", e, exc_info=True)
+            await query.message.reply_text("❌ Error fetching XUT packages.")
     except Exception as e:
-        logger.error("Error fetching biz packages: %s", e, exc_info=True)
-        await query.message.reply_text("❌ Error fetching biz packages.")
+        logger.error("Error fetching XUT packages: %s", e, exc_info=True)
+        await query.message.reply_text("❌ Error fetching XUT packages.")
 
 async def show_family_packages(update: Update, context: ContextTypes.DEFAULT_TYPE, query, family_code: str) -> None:
     """Show packages by family code."""
@@ -2224,10 +2224,10 @@ async def show_package_details(update: Update, context: ContextTypes.DEFAULT_TYP
             clean_tnc = clean_tnc[:500] + "..."
         
         # Find package index in cache
-        global biz_packages_cache, family_packages_cache
+        global xut_packages_cache, family_packages_cache
         package_index = None
-        # Check in biz packages cache first
-        for idx, pkg in biz_packages_cache.items():
+        # Check in XUT packages cache first
+        for idx, pkg in xut_packages_cache.items():
             if pkg["code"] == package_code:
                 package_index = idx
                 break
@@ -2283,7 +2283,7 @@ async def show_package_details(update: Update, context: ContextTypes.DEFAULT_TYP
         keyboard = [
             [InlineKeyboardButton("💳 Pay with Balance", callback_data=f"pay_BALANCE_{package_index}")],
             [InlineKeyboardButton("📱 Pay with QRIS", callback_data=f"pay_QRIS_{package_index}")],
-            [InlineKeyboardButton("🔙 Back", callback_data="buy_biz")]
+            [InlineKeyboardButton("🔙 Back", callback_data="buy_xut")]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         
@@ -2785,17 +2785,19 @@ async def show_vpn_info(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     try:
         # VPN information directly in code instead of reading from vpn.md
         message = "🌐 *DOYSTORE VPN*\n\n"
-        message += "*purchasing premium VPN at t.me/WINTUNELING_VPN_BOT*\n\n"
+        message += "*Donate for bot development by purchasing premium VPN at @doystorevpn*\n\n"
         message += "*Available:*\n\n"
         message += "Premium VPN for SSH/VMESS/VLESS/TROJAN protocols\n\n"
         message += "*Servers:*\n\n"
-        message += "🇮🇩 ID Aren - Rp 8,000\n"
-        message += "🇸🇬 SG Digital Ocean - Rp 8,000\n"
-        message += "🇸🇬 SG Tencent - Rp 6,000\n\n"
+        message += "🇮🇩 ID Infinys - Rp 10,000\n"
+        message += "🇮🇩 ID Biznet - Rp 10,000\n"
+        message += "🇮🇩 ID Atha - Rp 10,000\n"
+        message += "🇮🇩 ID Nusa - Rp 10,000\n"
+        message += "🇸🇬 SG Tencent - Rp 9,000\n\n"
         message += "*Note:*\n\n"
-        message += "STB-specific servers is not allowed ‼️\n\n"
-        message += "💰 *Payment Automatic Using QRIS\n\n"
-        message += "To purchase a Premium VPN, please contact: t.me/WINTUNELING_VPN_BOT"
+        message += "STB-specific servers cost an additional Rp 2,000 ‼️\n\n"
+        message += "💰 *Payment via QRIS/Dana/Shopeepay*\n\n"
+        message += "To purchase a Premium VPN, please contact: @doystorevpn"
         
         await update.message.reply_text(message, parse_mode='Markdown')
     except Exception as e:
@@ -2820,7 +2822,7 @@ async def show_donation_info(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /help is issued."""
-    message = "ℹ️ *DOR YTTA CUKURUKUK*\n\n"
+    message = "ℹ️ *DoyDor XL Bot Help*\n\n"
     message += "I can help you manage your XL account directly from Telegram!\n\n"
     message += "📱 *Available Commands:*\n"
     message += "/start - Start the bot\n"
@@ -3003,5 +3005,4 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
-
 
