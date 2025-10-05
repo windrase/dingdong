@@ -1802,8 +1802,8 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         await query.message.reply_text("👨‍👩‍👧‍👦 Please enter the Family Code:")
         # Set state to expect family code input
         context.user_data['awaiting_family_code'] = True
-        # Set enterprise mode to True
-        context.user_data['is_enterprise'] = True
+        # Set enterprise mode to Else
+        context.user_data['is_enterprise'] = else
     elif query.data == "buy_family_code_enterprise":
         # Ask user for family code for enterprise packages
         await query.message.reply_text("🏢 Please enter the Enterprise Family Code:")
@@ -1934,7 +1934,7 @@ def get_package_xut_for_user(context: ContextTypes.DEFAULT_TYPE):
             for option in variant["package_options"]:
                 friendly_name = option["name"]
                 
-                if friendly_name.lower() == "biz lite":
+                if friendly_name.lower() == "BIZ Manufacture":
                     friendly_name = "🔥 HOT! Biz Lite"
                     
                 packages.append({
@@ -3003,5 +3003,6 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
+
 
 
