@@ -1959,7 +1959,7 @@ def get_package_xut_for_user(context: ContextTypes.DEFAULT_TYPE):
         logger.error("Error fetching XUT packages: %s", e, exc_info=True)
         return None
 
-def get_packages_by_family_code_for_user(context: ContextTypes.DEFAULT_TYPE, family_code: str, is_enterprise: bool = False):
+def get_packages_by_family_code_for_user(context: ContextTypes.DEFAULT_TYPE, family_code: str, is_enterprise: bool = True):
     """Get packages for the current user by family code"""
     global api_key
     user = auth_instance.get_active_user(context)
@@ -3003,6 +3003,7 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
+
 
 
 
