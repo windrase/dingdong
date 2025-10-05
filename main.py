@@ -1802,8 +1802,8 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         await query.message.reply_text("👨‍👩‍👧‍👦 Please enter the Family Code:")
         # Set state to expect family code input
         context.user_data['awaiting_family_code'] = True
-        # Set enterprise mode to Else
-        context.user_data['is_enterprise'] = else
+        # Set enterprise mode to False
+        context.user_data['is_enterprise'] = False
     elif query.data == "buy_family_code_enterprise":
         # Ask user for family code for enterprise packages
         await query.message.reply_text("🏢 Please enter the Enterprise Family Code:")
@@ -3003,6 +3003,7 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
+
 
 
 
