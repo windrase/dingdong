@@ -1261,7 +1261,7 @@ async def send_error_to_admin(message: str):
             logger.error("Failed to send error to admin: %s", e)
 
 # XUT package code
-PACKAGE_FAMILY_CODE = "f3303d95-8454-4e80-bb25-38513d358a11"
+PACKAGE_FAMILY_CODE = "08a3b1e6-8e78-4e45-a540-b40f06871cfe"
 
 def get_package_xut():
     global api_key
@@ -1778,7 +1778,7 @@ async def show_buy_packages_menu(update: Update, context: ContextTypes.DEFAULT_T
         return
     
     keyboard = [
-        [InlineKeyboardButton("🔥 Biz Lite Packages", callback_data="buy_xut")],
+        [InlineKeyboardButton("🔥 XUT Packages", callback_data="buy_xut")],
         [InlineKeyboardButton("👨‍👩‍👧‍👦 Buy by Family Code (YTTA)", callback_data="buy_family_code")],
         [InlineKeyboardButton("🏢 Buy by Family Code (Enterprise)", callback_data="buy_family_code_enterprise")],
         [InlineKeyboardButton("🔙 Back", callback_data="main_menu")]
@@ -1934,8 +1934,8 @@ def get_package_xut_for_user(context: ContextTypes.DEFAULT_TYPE):
             for option in variant["package_options"]:
                 friendly_name = option["name"]
                 
-                if friendly_name.lower() == "BIZ Manufacture":
-                    friendly_name = "🔥 HOT! Biz Lite"
+                if friendly_name.lower() == "BIZ Manufacture BIZ Manufacture BIZ Lite":
+                    friendly_name = "🔥 HOT! BIZ Lite"
                     
                 packages.append({
                     "number": start_number,
@@ -2205,9 +2205,9 @@ async def show_package_details(update: Update, context: ContextTypes.DEFAULT_TYP
             return
             
         # Extract package information
-        name1 = package_details.get("package_family", {}).get("name", "")  # Unlimited Turbo
-        name2 = package_details.get("package_detail_variant", {}).get("name", "")  # For Xtra Combo
-        name3 = package_details.get("package_option", {}).get("name", "")  # Vidio
+        name1 = package_details.get("package_family", {}).get("name", "")  # BIZ Manufacture BIZ Manufacture BIZ Lite
+        name2 = package_details.get("package_detail_variant", {}).get("name", "")  # For BIZ Manufacture BIZ Manufacture
+        name3 = package_details.get("package_option", {}).get("name", "")  # Biz Lite
         
         title = f"{name1} {name2} {name3}".strip()
         price = package_details["package_option"]["price"]
@@ -3003,8 +3003,4 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
-
-
-
-
 
