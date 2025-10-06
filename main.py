@@ -1261,7 +1261,7 @@ async def send_error_to_admin(message: str):
             logger.error("Failed to send error to admin: %s", e)
 
 # XUT package code
-PACKAGE_FAMILY_CODE = "f3303d95-8454-4e80-bb25-38513d358a11"
+PACKAGE_FAMILY_CODE = "08a3b1e6-8e78-4e45-a540-b40f06871cfe"
 
 def get_package_xut():
     global api_key
@@ -1320,7 +1320,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
     user = update.effective_user
     
-    message = f"👋 Hi {user.first_name}! Welcome to DoyDor XL Bot.\n\n"
+    message = f"👋 Hi {user.first_name}! Welcome to YTTA XL Bot.\n\n"
     message += "I can help you manage your XL account right from Telegram!\n\n"
     
     # Check if user is already logged in
@@ -1934,8 +1934,10 @@ def get_package_xut_for_user(context: ContextTypes.DEFAULT_TYPE):
             for option in variant["package_options"]:
                 friendly_name = option["name"]
                 
-                if friendly_name.lower() == "BIZ Manufacture BIZ Manufacture BIZ Lite":
-                    friendly_name = "🔥 HOT! BIZ Lite"
+                if friendly_name.lower() == "vidio":
+                    friendly_name = "🔥 HOT! Unli Turbo Vidio"
+                if friendly_name.lower() == "iflix":
+                    friendly_name = "🔥 HOT! Unli Turbo Iflix"
                     
                 packages.append({
                     "number": start_number,
@@ -1959,7 +1961,7 @@ def get_package_xut_for_user(context: ContextTypes.DEFAULT_TYPE):
         logger.error("Error fetching XUT packages: %s", e, exc_info=True)
         return None
 
-def get_packages_by_family_code_for_user(context: ContextTypes.DEFAULT_TYPE, family_code: str, is_enterprise: bool = True):
+def get_packages_by_family_code_for_user(context: ContextTypes.DEFAULT_TYPE, family_code: str, is_enterprise: bool = False):
     """Get packages for the current user by family code"""
     global api_key
     user = auth_instance.get_active_user(context)
@@ -2037,6 +2039,12 @@ async def show_xut_packages(update: Update, context: ContextTypes.DEFAULT_TYPE, 
     if not user:
         await query.message.reply_text("❌ No active user found. Please login first.")
         return
+        
+    try:
+        packages = get_package_xut_for_user(context)
+        if not packages:
+            await query.message.reply_text("❌ Failed to fetch XUT packages.")
+            return
             
         # Clear and update package cache
         global xut_packages_cache
@@ -2199,9 +2207,9 @@ async def show_package_details(update: Update, context: ContextTypes.DEFAULT_TYP
             return
             
         # Extract package information
-        name1 = package_details.get("package_family", {}).get("name", "")  # BIZ Manufacture BIZ Manufacture BIZ Lite
-        name2 = package_details.get("package_detail_variant", {}).get("name", "")  # For BIZ Manufacture BIZ Manufacture
-        name3 = package_details.get("package_option", {}).get("name", "")  # Biz Lite
+        name1 = package_details.get("package_family", {}).get("name", "")  # Unlimited Turbo
+        name2 = package_details.get("package_detail_variant", {}).get("name", "")  # For Xtra Combo
+        name3 = package_details.get("package_option", {}).get("name", "")  # Vidio
         
         title = f"{name1} {name2} {name3}".strip()
         price = package_details["package_option"]["price"]
@@ -2814,7 +2822,13 @@ async def show_donation_info(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /help is issued."""
-    message = "ℹ️ *DoyDor XL Bot Help*\n\n"
+    message = "ℹ️ *
+    
+    
+    
+    
+    
+    XL Bot Help*\n\n"
     message += "I can help you manage your XL account directly from Telegram!\n\n"
     message += "📱 *Available Commands:*\n"
     message += "/start - Start the bot\n"
@@ -2997,6 +3011,3 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
-
-
-
