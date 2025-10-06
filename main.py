@@ -2037,12 +2037,6 @@ async def show_xut_packages(update: Update, context: ContextTypes.DEFAULT_TYPE, 
     if not user:
         await query.message.reply_text("❌ No active user found. Please login first.")
         return
-        
-    try:
-        packages = get_package_xut_for_user(context)
-        if not packages:
-            await query.message.reply_text("❌ Failed to fetch XUT packages.")
-            return
             
         # Clear and update package cache
         global xut_packages_cache
@@ -3003,5 +2997,6 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
+
 
 
