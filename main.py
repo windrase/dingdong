@@ -1320,7 +1320,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
     user = update.effective_user
     
-    message = f"👋 Hi {user.first_name}! Welcome to YTTA XL Bot.\n\n"
+    message = f"👋 Hi {user.first_name}! Welcome to *WINTUNELING* XL Bot.\n\n"
     message += "I can help you manage your XL account right from Telegram!\n\n"
     
     # Check if user is already logged in
@@ -2784,20 +2784,19 @@ async def show_vpn_info(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     """Show VPN information and purchase options."""
     try:
         # VPN information directly in code instead of reading from vpn.md
-        message = "🌐 *DOYSTORE VPN*\n\n"
-        message += "*Donate for bot development by purchasing premium VPN at @doystorevpn*\n\n"
+        message = "🌐 *WINTUNELING VPN*\n\n"
+        message += "*Donate for bot development by purchasing premium VPN at @WINTUNELING_VPNN*\n\n"
         message += "*Available:*\n\n"
         message += "Premium VPN for SSH/VMESS/VLESS/TROJAN protocols\n\n"
         message += "*Servers:*\n\n"
-        message += "🇮🇩 ID Infinys - Rp 10,000\n"
-        message += "🇮🇩 ID Biznet - Rp 10,000\n"
-        message += "🇮🇩 ID Atha - Rp 10,000\n"
-        message += "🇮🇩 ID Nusa - Rp 10,000\n"
-        message += "🇸🇬 SG Tencent - Rp 9,000\n\n"
+        message += "🇮🇩 ID Aren - Rp 8,000\n"
+        message += "🇸🇬 SG DO VIP - Rp 8,000\n"
+        message += "🇸🇬 SG DO VVIP - Rp 10,000\n"
+        message += "🇸🇬 SG Tencent - Rp 6,000\n\n"
         message += "*Note:*\n\n"
         message += "STB-specific servers cost an additional Rp 2,000 ‼️\n\n"
         message += "💰 *Payment via QRIS/Dana/Shopeepay*\n\n"
-        message += "To purchase a Premium VPN, please contact: @doystorevpn"
+        message += "To purchase a Premium VPN, please contact: @WINTUNELING_VPNN"
         
         await update.message.reply_text(message, parse_mode='Markdown')
     except Exception as e:
@@ -2822,13 +2821,7 @@ async def show_donation_info(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /help is issued."""
-    message = "ℹ️ *
-    
-    
-    
-    
-    
-    XL Bot Help*\n\n"
+    message = "ℹ️ *WINTUNELING XL Bot Help*\n\n"
     message += "I can help you manage your XL account directly from Telegram!\n\n"
     message += "📱 *Available Commands:*\n"
     message += "/start - Start the bot\n"
