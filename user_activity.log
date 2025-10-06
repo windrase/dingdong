@@ -1,1 +1,360 @@
-
+2025-09-06 15:21:40,648 - LOGIN - User: 7978608436 (ciacia2121), XL Number: 6285966354203
+2025-09-06 15:21:58,186 - LOGIN - User: 7803861326 (Citralstraulia), XL Number: 6287715474968
+2025-09-06 15:22:44,151 - LOGIN - User: 1997633069 (warunkonline), XL Number: 6285922789309
+2025-09-06 15:24:43,459 - LOGIN - User: 6669826239 (naxolyzz), XL Number: 6281947838241
+2025-09-06 15:25:19,443 - LOGIN - User: 5522783291 (surutpasang), XL Number: 6287886871815
+2025-09-06 15:27:20,000 - LOGIN - User: 5746823770 (F2fsEnterxx), XL Number: 6287750311327
+2025-09-06 15:29:11,618 - LOGIN - User: 6593960114 (heh3heh3), XL Number: 6287778516435
+2025-09-06 15:29:34,194 - LOGIN - User: 579447301 (Afif_Rosy), XL Number: 6287726078042
+2025-09-06 15:35:24,654 - LOGIN - User: 6343065438 (hlzblade), XL Number: 6287826240514
+2025-09-06 15:36:36,889 - LOGIN - User: 6343065438 (hlzblade), XL Number: 6287826240514
+2025-09-06 15:38:28,863 - LOGIN - User: 6986817819 (Lapulga2189), XL Number: 6287751952182
+2025-09-06 15:40:15,398 - LOGIN - User: 6411310343 (Hamzarfaz), XL Number: 6287762745704
+2025-09-06 15:40:55,916 - LOGIN - User: 5764126122 (baluatame), XL Number: 6287740556161
+2025-09-06 15:42:00,143 - LOGIN - User: 6307554858 (stfuloop), XL Number: 6287753642798
+2025-09-06 15:45:33,216 - LOGIN - User: 515173884 (putr1010), XL Number: 6287763202162
+2025-09-06 15:46:09,515 - LOGIN - User: 6628726470 (AKTVPNSTORE1), XL Number: 6285945785543
+2025-09-06 15:47:44,681 - LOGIN - User: 515173884 (putr1010), XL Number: 6287763202162
+2025-09-06 15:53:33,892 - LOGIN - User: 6994320103 (MuhammadAbdul230), XL Number: 6287863418564
+2025-09-06 15:59:16,509 - QRIS_GENERATED - User: 5764126122 (baluatame), XL Number: 6287740556161, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-06 16:05:45,552 - LOGIN - User: 5355975466 (Gktaulahjing), XL Number: 6287815270262
+2025-09-06 16:08:20,751 - LOGIN - User: 6162307869 (Simbahoman), XL Number: 6285954293385
+2025-09-06 16:12:55,087 - LOGIN - User: 5794084345 (othenajje), XL Number: 6287855020110
+2025-09-06 16:15:09,787 - PURCHASE_FAILED - User: 5794084345 (othenajje), XL Number: 6287855020110, Package: Unli Turbo Vidio, Price: Rp 25,000, Method: BALANCE, Error: Purchase failed: {'code': '213', 'code_detail': '213-01-02-115-400', 'description': 'myXL is under maintenance. Please try again in a few moments later', 'message': 'Bizz-err.ProductNotFound', 'status': 'FAILED', 'title': "There's An Issue In myXL While Loading The Page from config"}
+2025-09-06 16:28:25,716 - LOGIN - User: 7093375309 (Mbahkaryoo), XL Number: 6287840714460
+2025-09-06 16:45:43,368 - LOGIN - User: 876081450 (haluboy), XL Number: 6287831358695
+2025-09-06 16:57:50,081 - LOGIN - User: 7220996448 (malifz), XL Number: 6287769776373
+2025-09-06 17:08:49,780 - LOGIN - User: 6628726470 (AKTVPNSTORE1), XL Number: 6285945785543
+2025-09-06 17:09:52,207 - LOGIN - User: 6445701812 (Pelernag), XL Number: 6281818606521
+2025-09-06 17:36:36,928 - LOGIN - User: 6038910590 (Kiyoshg), XL Number: 6287823824684
+2025-09-06 17:46:25,597 - LOGIN - User: 6424316272 (Jhonadityastore68), XL Number: 6287785613884
+2025-09-06 17:57:00,726 - LOGIN - User: 1627300973 (yhujae), XL Number: 6287834096904
+2025-09-06 18:40:16,047 - LOGIN - User: 7126092913 (kiravpn4), XL Number: 6287839142772
+2025-09-06 18:42:45,791 - QRIS_GENERATED - User: 7126092913 (kiravpn4), XL Number: 6287839142772, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-06 18:43:25,373 - LOGIN - User: 1053164638 (mainjanda), XL Number: 6281904360066
+2025-09-06 18:44:35,779 - LOGIN - User: 1053164638 (mainjanda), XL Number: 6281904360066
+2025-09-06 18:47:12,518 - PURCHASE_FAILED - User: 1053164638 (mainjanda), XL Number: 6281904360066, Package: Basic, Price: Rp 500, Method: BALANCE, Error: Purchase failed: {'code': '213', 'code_detail': '213-01-02-115-422', 'description': 'myXL is under maintenance. Please try again in a few moments later', 'message': '422 -> Failed call ipaas purchase, with status code:422 : null, ', 'status': 'FAILED', 'title': "There's An Issue In myXL While Loading The Page from config"}
+2025-09-06 18:54:48,937 - LOGIN - User: 1469336564 (KANGCUT100), XL Number: 6281774814248
+2025-09-06 19:08:37,428 - LOGIN - User: 1725426152 (Him0i), XL Number: 6287870325059
+2025-09-06 19:41:38,386 - LOGIN - User: 6915109343 (GallVpnStore), XL Number: 6287852540347
+2025-09-06 20:36:09,703 - LOGIN - User: 6986817819 (Lapulga2189), XL Number: 6287768663874
+2025-09-06 20:39:40,610 - QRIS_GENERATED - User: 6986817819 (Lapulga2189), XL Number: 6287768663874, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-06 20:40:33,270 - PURCHASE_FAILED - User: 6986817819 (Lapulga2189), XL Number: 6287768663874, Package: Unli Turbo Vidio, Price: Rp 25,000, Method: BALANCE, Error: Purchase error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-09-06 20:48:43,651 - PURCHASE_FAILED - User: 6162307869 (Simbahoman), XL Number: 6285954293385, Package: Standard, Price: Rp 20,000, Method: BALANCE, Error: Purchase failed: {'code': '135', 'code_detail': '135', 'description': '', 'message': 'BALANCE_INSUFFICIENT', 'status': 'FAILED', 'title': ''}
+2025-09-06 20:52:34,617 - PURCHASE_FAILED - User: 6162307869 (Simbahoman), XL Number: 6285954293385, Package: Basic, Price: Rp 10,000, Method: BALANCE, Error: Purchase failed: {'code': '213', 'code_detail': '213-01-02-115-422', 'description': 'myXL is under maintenance. Please try again in a few moments later', 'message': '422 -> Failed call ipaas purchase, with status code:422 : null, ', 'status': 'FAILED', 'title': "There's An Issue In myXL While Loading The Page from config"}
+2025-09-06 20:53:52,716 - PURCHASE_FAILED - User: 6162307869 (Simbahoman), XL Number: 6285954293385, Package: Basic, Price: Rp 10,000, Method: BALANCE, Error: Purchase failed: {'code': '213', 'code_detail': '213-01-02-115-422', 'description': 'myXL is under maintenance. Please try again in a few moments later', 'message': '422 -> Failed call ipaas purchase, with status code:422 : null, ', 'status': 'FAILED', 'title': "There's An Issue In myXL While Loading The Page from config"}
+2025-09-06 20:54:40,661 - PURCHASE_FAILED - User: 6162307869 (Simbahoman), XL Number: 6285954293385, Package: Basic, Price: Rp 10,000, Method: BALANCE, Error: Purchase failed: {'code': '213', 'code_detail': '213-01-02-115-422', 'description': 'myXL is under maintenance. Please try again in a few moments later', 'message': '422 -> Failed call ipaas purchase, with status code:422 : null, ', 'status': 'FAILED', 'title': "There's An Issue In myXL While Loading The Page from config"}
+2025-09-06 21:00:04,655 - PURCHASE_FAILED - User: 6162307869 (Simbahoman), XL Number: 6285954293385, Package: Basic, Price: Rp 10,000, Method: BALANCE, Error: Purchase failed: {'code': '213', 'code_detail': '213-01-02-115-422', 'description': 'myXL is under maintenance. Please try again in a few moments later', 'message': '422 -> Failed call ipaas purchase, with status code:422 : null, ', 'status': 'FAILED', 'title': "There's An Issue In myXL While Loading The Page from config"}
+2025-09-06 21:03:02,025 - PURCHASE_FAILED - User: 6162307869 (Simbahoman), XL Number: 6285954293385, Package: Basic, Price: Rp 10,000, Method: BALANCE, Error: Purchase failed: {'code': '213', 'code_detail': '213-01-02-115-422', 'description': 'myXL is under maintenance. Please try again in a few moments later', 'message': '422 -> Failed call ipaas purchase, with status code:422 : null, ', 'status': 'FAILED', 'title': "There's An Issue In myXL While Loading The Page from config"}
+2025-09-06 21:04:21,754 - QRIS_GENERATED - User: 6162307869 (Simbahoman), XL Number: 6285954293385, Package: Basic, Price: Rp 10,000
+2025-09-06 21:38:01,942 - LOGIN - User: 5764126122 (baluatame), XL Number: 6287740556161
+2025-09-06 21:52:06,172 - LOGIN - User: 6986817819 (Lapulga2189), XL Number: 6287768663874
+2025-09-06 21:53:57,856 - PURCHASE_FAILED - User: 6986817819 (Lapulga2189), XL Number: 6287768663874, Package: Unli Turbo Vidio, Price: Rp 25,000, Method: BALANCE, Error: Purchase failed: {'code': '135', 'code_detail': '135', 'description': '', 'message': 'BALANCE_INSUFFICIENT', 'status': 'FAILED', 'title': ''}
+2025-09-06 22:03:44,596 - LOGIN - User: 1805209171 (bebelac43), XL Number: 6287753217179
+2025-09-06 23:55:03,755 - LOGIN - User: 2052641683 (cuankirebus), XL Number: 6285933633193
+2025-09-07 02:28:36,680 - LOGIN - User: 7557226774 (kucenxwell), XL Number: 6285930313050
+2025-09-07 02:30:16,066 - PURCHASE_FAILED - User: 7557226774 (kucenxwell), XL Number: 6285930313050, Package: Basic, Price: Rp 500, Method: BALANCE, Error: Purchase failed: {'code': '213', 'code_detail': '213-01-02-115-422', 'description': 'myXL is under maintenance. Please try again in a few moments later', 'message': '422 -> Failed call ipaas purchase, with status code:422 : null, ', 'status': 'FAILED', 'title': "There's An Issue In myXL While Loading The Page from config"}
+2025-09-07 05:37:19,142 - LOGIN - User: 1696114604 (Jagungbakar04), XL Number: 6287804311407
+2025-09-07 05:40:20,752 - PURCHASE_SUCCESS - User: 1696114604 (Jagungbakar04), XL Number: 6287804311407, Package: Unli Turbo Vidio, Price: Rp 25,000, Method: BALANCE
+2025-09-07 05:57:39,291 - LOGIN - User: 1921523549 (zidan03415), XL Number: 6287744742622
+2025-09-07 07:24:09,498 - LOGIN - User: 1094972845 (Rewogireng), XL Number: 6287781930794
+2025-09-07 09:48:16,035 - LOGIN - User: 6424316272 (Jhonadityastore68), XL Number: 6287785613884
+2025-09-07 09:57:13,320 - LOGIN - User: 1343804078 (temempig), XL Number: 6287785718400
+2025-09-07 10:19:49,462 - LOGIN - User: 5076744063 (Rialriz), XL Number: 6281772887639
+2025-09-07 10:21:27,679 - LOGIN - User: 1094972845 (Rewogireng), XL Number: 6287781930794
+2025-09-07 10:26:28,154 - LOGIN - User: 1331568156 (blackpotato100), XL Number: 6281932035348
+2025-09-07 10:31:16,600 - LOGIN - User: 6467144141 (botol_testmbuh), XL Number: 6287836219917
+2025-09-07 10:37:04,398 - LOGIN - User: 7238679382 (Simanisna), XL Number: 6287767282136
+2025-09-07 10:40:45,878 - PURCHASE_SUCCESS - User: 6467144141 (botol_testmbuh), XL Number: 6287836219917, Package: Super, Price: Rp 125,000, Method: BALANCE
+2025-09-07 10:41:25,130 - LOGIN - User: 611886689 (nununaja), XL Number: 6287739600141
+2025-09-07 10:44:21,083 - LOGIN - User: 6445701812 (Pelernag), XL Number: 6281818606521
+2025-09-07 10:49:01,172 - LOGIN - User: 543942919 (McQueenquenn), XL Number: 6281910424939
+2025-09-07 10:50:07,991 - LOGIN - User: 5338467508 (TStore75), XL Number: 6281952545612
+2025-09-07 10:55:10,294 - LOGIN - User: 1760679340 (Slorogan), XL Number: 6285942206336
+2025-09-07 10:55:58,498 - PURCHASE_SUCCESS - User: 543942919 (McQueenquenn), XL Number: 6281910424939, Package: YouTube, Price: Rp 15,000, Method: BALANCE
+2025-09-07 10:56:51,232 - LOGIN - User: 7710020650 (Xman160), XL Number: 6285962530225
+2025-09-07 11:00:02,002 - LOGIN - User: 1475739980 (wenyhwenyh), XL Number: 6285929945172
+2025-09-07 11:00:49,663 - LOGIN - User: 986375566 (rivo87), XL Number: 6281993390523
+2025-09-07 11:02:56,467 - LOGIN - User: 6720345742 (kitadolan), XL Number: 6285973866602
+2025-09-07 11:04:44,297 - LOGIN - User: 1321318824 (nuyulajalah), XL Number: 6287701087801
+2025-09-07 11:05:28,049 - LOGIN - User: 7704537339 (N/A), XL Number: 6287786626455
+2025-09-07 11:05:53,289 - LOGIN - User: 1393986461 (Catzbury), XL Number: 6281998711473
+2025-09-07 11:11:23,996 - LOGIN - User: 1806123488 (kardusbekasmie), XL Number: 6287786155307
+2025-09-07 11:14:40,435 - PURCHASE_SUCCESS - User: 1806123488 (kardusbekasmie), XL Number: 6287786155307, Package: Basic, Price: Rp 500, Method: BALANCE
+2025-09-07 11:18:03,572 - LOGIN - User: 6475132154 (Satriabagas321), XL Number: 6281818606521
+2025-09-07 11:20:28,092 - LOGIN - User: 6162307869 (Simbahoman), XL Number: 6285954293385
+2025-09-07 11:23:33,134 - PURCHASE_FAILED - User: 6162307869 (Simbahoman), XL Number: 6285954293385, Package: Basic, Price: Rp 10,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-07 11:32:16,051 - LOGIN - User: 5355975466 (Gktaulahjing), XL Number: 6287815270262
+2025-09-07 13:34:28,387 - LOGIN - User: 1178771940 (lim697), XL Number: 6287726759652
+2025-09-07 13:36:27,279 - LOGIN - User: 5218960178 (idphrekaer), XL Number: 6285943218804
+2025-09-07 13:37:23,779 - LOGIN - User: 1363213971 (Alanas_one), XL Number: 6287714391063
+2025-09-07 13:38:23,209 - LOGIN - User: 7600987570 (bertstoree), XL Number: 628174878091
+2025-09-07 13:39:06,934 - PURCHASE_SUCCESS - User: 5218960178 (idphrekaer), XL Number: 6285943218804, Package: 60GB Setahun, Original Price: Rp 0, Paid: Rp 0, Method: BALANCE
+2025-09-07 13:42:08,616 - LOGIN - User: 7213311539 (ordersekarang), XL Number: 6285973875384
+2025-09-07 13:47:42,462 - LOGIN - User: 880463098 (noxp999), XL Number: 6287756909730
+2025-09-07 13:53:11,951 - LOGIN - User: 6162307869 (Simbahoman), XL Number: 6285954293385
+2025-09-07 13:56:06,744 - PURCHASE_FAILED - User: 6162307869 (Simbahoman), XL Number: 6285954293385, Package: Basic, Price: Rp 10,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-07 13:59:37,838 - LOGIN - User: 8322966163 (anafitri_09), XL Number: 6285934630297
+2025-09-07 14:00:53,474 - LOGIN - User: 2119359165 (irfantivi), XL Number: 6287815814030
+2025-09-07 14:02:20,619 - LOGIN - User: 5218960178 (idphrekaer), XL Number: 6281999157385
+2025-09-07 14:05:27,411 - LOGIN - User: 2052641683 (cuankirebus), XL Number: 6287704386572
+2025-09-07 14:05:49,412 - QRIS_GENERATED - User: 2119359165 (irfantivi), XL Number: 6287815814030, Package: Basic, Price: Rp 500
+2025-09-07 14:06:03,388 - PURCHASE_FAILED - User: 2119359165 (irfantivi), XL Number: 6287815814030, Package: Basic, Price: Rp 500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-07 14:06:59,271 - PURCHASE_FAILED - User: 8322966163 (anafitri_09), XL Number: 6285934630297, Package: Kuota GrabFood & GoFood, Original Price: Rp 65, Paid: Rp 35, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-07 14:12:51,994 - QRIS_GENERATED - User: 2052641683 (cuankirebus), XL Number: 6287704386572, Package: YouTube, Price: Rp 15,000
+2025-09-07 14:13:19,287 - PURCHASE_SUCCESS - User: 2052641683 (cuankirebus), XL Number: 6287704386572, Package: YouTube, Price: Rp 15,000, Method: BALANCE
+2025-09-07 14:16:01,574 - LOGIN - User: 6713075627 (POLRI1), XL Number: 6287822147983
+2025-09-07 14:22:41,762 - LOGIN - User: 5661793411 (Thedark031), XL Number: 6287781700604
+2025-09-07 14:26:18,823 - LOGIN - User: 2119359165 (irfantivi), XL Number: 6287815814030
+2025-09-07 14:37:53,716 - LOGIN - User: 1094972845 (Rewogireng), XL Number: 6285947343310
+2025-09-07 14:47:39,364 - LOGIN - User: 6161620161 (Wibu_amatir09), XL Number: 6287757640975
+2025-09-07 14:58:19,878 - PURCHASE_FAILED - User: 2119359165 (irfantivi), XL Number: 6287815814030, Package: Basic, Price: Rp 500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-07 15:04:25,167 - LOGIN - User: 5657632432 (toko_kharisma), XL Number: 6287717967688
+2025-09-07 15:06:51,208 - QRIS_GENERATED - User: 5657632432 (toko_kharisma), XL Number: 6287717967688, Package: Premium, Price: Rp 13,500
+2025-09-07 15:42:25,659 - LOGIN - User: 1321318824 (nuyulajalah), XL Number: 6287701087801
+2025-09-07 15:45:30,308 - PURCHASE_SUCCESS - User: 1321318824 (nuyulajalah), XL Number: 6287701087801, Package: YouTube, Price: Rp 15,000, Method: BALANCE
+2025-09-07 15:50:02,356 - PURCHASE_FAILED - User: 1321318824 (nuyulajalah), XL Number: 6287701087801, Package: BONUS XL Spesial 11.11, Original Price: Rp 3,000, Paid: Rp 3,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-07 16:16:35,011 - LOGIN - User: 5568786386 (cillnext), XL Number: 6287763293529
+2025-09-07 16:17:28,393 - QRIS_GENERATED - User: 5568786386 (cillnext), XL Number: 6287763293529, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-07 16:22:54,718 - LOGIN - User: 986375566 (rivo87), XL Number: 6281993390523
+2025-09-07 16:49:18,689 - LOGIN - User: 6475132154 (Satriabagas321), XL Number: 6281818606521
+2025-09-07 16:52:07,302 - QRIS_GENERATED - User: 6475132154 (Satriabagas321), XL Number: 6281818606521, Package: Joox, Price: Rp 10,000
+2025-09-07 16:54:02,251 - QRIS_GENERATED - User: 6475132154 (Satriabagas321), XL Number: 6281818606521, Package: Unli Turbo Iflix, Price: Rp 25,000
+2025-09-07 16:56:48,510 - QRIS_GENERATED - User: 6475132154 (Satriabagas321), XL Number: 6281818606521, Package: Viu, Price: Rp 25,000
+2025-09-07 17:14:52,416 - LOGIN - User: 5929709451 (Sadowgaden), XL Number: 6287861140739
+2025-09-07 17:32:10,523 - LOGIN - User: 7126092913 (kiravpn4), XL Number: 6285933839484
+2025-09-07 18:32:24,923 - PURCHASE_FAILED - User: 6475132154 (Satriabagas321), XL Number: 6281818606521, Package: Viu, Price: Rp 25,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-07 18:39:21,292 - LOGIN - User: 6986817819 (Lapulga2189), XL Number: 6287768663874
+2025-09-08 00:36:51,552 - LOGIN - User: 7557226774 (kucenxwell), XL Number: 6285930313050
+2025-09-08 00:40:16,559 - PURCHASE_FAILED - User: 7557226774 (kucenxwell), XL Number: 6285930313050, Package: Basic, Price: Rp 500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-08 00:42:07,051 - PURCHASE_SUCCESS - User: 7557226774 (kucenxwell), XL Number: 6285930313050, Package: Basic, Price: Rp 55,000, Method: BALANCE
+2025-09-08 00:44:56,381 - PURCHASE_FAILED - User: 7557226774 (kucenxwell), XL Number: 6285930313050, Package: Kuota Utama 4GB, Original Price: Rp 0, Paid: Rp 0, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 111)
+2025-09-08 00:46:52,403 - PURCHASE_SUCCESS - User: 7557226774 (kucenxwell), XL Number: 6285930313050, Package: YouTube, Price: Rp 25,000, Method: BALANCE
+2025-09-08 00:49:35,970 - PURCHASE_SUCCESS - User: 7557226774 (kucenxwell), XL Number: 6285930313050, Package: Standard, Price: Rp 85,000, Method: BALANCE
+2025-09-08 00:51:48,555 - LOGIN - User: 864140704 (bangsatlo11), XL Number: 6281917411250
+2025-09-08 00:52:55,226 - PURCHASE_FAILED - User: 864140704 (bangsatlo11), XL Number: 6281917411250, Package: Basic, Price: Rp 500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-08 00:53:17,524 - PURCHASE_FAILED - User: 7557226774 (kucenxwell), XL Number: 6285930313050, Package: Active 15GB, Original Price: Rp 0, Paid: Rp 0, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 111)
+2025-09-08 00:54:04,627 - PURCHASE_SUCCESS - User: 864140704 (bangsatlo11), XL Number: 6281917411250, Package: Premium, Price: Rp 99,000, Method: BALANCE
+2025-09-08 00:57:55,720 - PURCHASE_FAILED - User: 864140704 (bangsatlo11), XL Number: 6281917411250, Package: Joox, Price: Rp 10,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-08 01:03:30,473 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6281916521836
+2025-09-08 01:04:47,081 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6281916521836, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 01:14:15,659 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287743853672
+2025-09-08 01:15:02,893 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287743853672, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 01:38:02,982 - LOGIN - User: 1598339693 (DinXiee), XL Number: 6287737259173
+2025-09-08 01:41:08,386 - PURCHASE_FAILED - User: 1598339693 (DinXiee), XL Number: 6287737259173, Package: Emergency Quota 100MB, 1 Day, Original Price: Rp 0, Paid: Rp 0, Method: BALANCE, Error: Failed to initiate payment. Possible reasons: Insufficient balance, package no longer available, or network connectivity issues.
+2025-09-08 02:22:13,953 - LOGIN - User: 1618379066 (archdeus), XL Number: 6287846376755
+2025-09-08 04:30:22,669 - LOGIN - User: 5049434247 (Paraboy98K), XL Number: 6281779878682
+2025-09-08 04:33:38,443 - PURCHASE_FAILED - User: 5049434247 (Paraboy98K), XL Number: 6281779878682, Package: Premium, Price: Rp 13,500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-08 04:38:15,759 - LOGIN - User: 5049434247 (Paraboy98K), XL Number: 6281779878682
+2025-09-08 04:40:50,180 - PURCHASE_SUCCESS - User: 5049434247 (Paraboy98K), XL Number: 6281779878682, Package: 5GB, Original Price: Rp 30,000, Paid: Rp 30,000, Method: BALANCE
+2025-09-08 04:43:12,411 - PURCHASE_FAILED - User: 5049434247 (Paraboy98K), XL Number: 6281779878682, Package: Viu, Price: Rp 25,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-08 04:43:37,555 - QRIS_GENERATED - User: 5049434247 (Paraboy98K), XL Number: 6281779878682, Package: Viu, Price: Rp 25,000
+2025-09-08 04:45:09,514 - QRIS_GENERATED - User: 5049434247 (Paraboy98K), XL Number: 6281779878682, Package: Premium, Price: Rp 99,000
+2025-09-08 04:46:21,537 - QRIS_GENERATED - User: 5049434247 (Paraboy98K), XL Number: 6281779878682, Package: Premium, Price: Rp 13,500
+2025-09-08 05:17:05,344 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6285977374358
+2025-09-08 05:20:27,660 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6285977374358, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 05:40:09,232 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6281991603142
+2025-09-08 05:40:53,087 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6281991603142, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 05:48:47,338 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287717672913
+2025-09-08 06:11:29,520 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287858245072
+2025-09-08 06:13:19,675 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287858245072, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 06:46:15,889 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287837981893
+2025-09-08 06:48:06,113 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287837981893, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 06:51:53,174 - LOGIN - User: 6986817819 (Lapulga2189), XL Number: 6287768663874
+2025-09-08 06:52:32,274 - QRIS_GENERATED - User: 6986817819 (Lapulga2189), XL Number: 6287768663874, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 07:15:11,310 - LOGIN - User: 5983195682 (sxcc17), XL Number: 6287823083256
+2025-09-08 07:16:53,050 - QRIS_GENERATED - User: 5983195682 (sxcc17), XL Number: 6287823083256, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 08:44:25,032 - LOGIN - User: 924527341 (emboeh), XL Number: 6281936942214
+2025-09-08 08:47:19,175 - PURCHASE_FAILED - User: 924527341 (emboeh), XL Number: 6281936942214, Package: Internet 4GB, Original Price: Rp 2,500, Paid: Rp 2,500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-08 08:48:14,732 - LOGIN - User: 1564275538 (mhmdsairii), XL Number: 6281932809354
+2025-09-08 08:49:08,419 - QRIS_GENERATED - User: 1564275538 (mhmdsairii), XL Number: 6281932809354, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 09:28:34,059 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287798304440
+2025-09-08 09:29:41,859 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287798304440, Package: Unli Turbo Iflix, Price: Rp 25,000
+2025-09-08 09:38:15,358 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287780431560
+2025-09-08 09:42:26,389 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287780431560, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 09:49:54,465 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287875843382
+2025-09-08 09:52:46,431 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287875843382, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 10:12:10,658 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287878265519
+2025-09-08 10:13:51,271 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287878265519, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 10:19:05,708 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6281917334289
+2025-09-08 10:19:45,995 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6281917334289, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 10:29:49,182 - LOGIN - User: 6986817819 (Lapulga2189), XL Number: 6287731283768
+2025-09-08 10:30:29,746 - QRIS_GENERATED - User: 6986817819 (Lapulga2189), XL Number: 6287731283768, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 10:41:35,072 - LOGIN - User: 6900989434 (Fishz01), XL Number: 6287814050340
+2025-09-08 10:42:42,648 - PURCHASE_FAILED - User: 6900989434 (Fishz01), XL Number: 6287814050340, Package: Xtra Combo Flex XS, Original Price: Rp 0, Paid: Rp 1, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 137)
+2025-09-08 10:46:55,547 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287727597115
+2025-09-08 10:47:46,663 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287727597115, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 10:55:46,695 - LOGIN - User: 7572063464 (interst3llar), XL Number: 6287742311100
+2025-09-08 10:57:16,348 - QRIS_GENERATED - User: 7572063464 (interst3llar), XL Number: 6287742311100, Package: Basic, Price: Rp 500
+2025-09-08 10:58:00,099 - LOGIN - User: 6142128613 (Akpauu), XL Number: 6281779064103
+2025-09-08 11:00:09,739 - LOGIN - User: 6915109343 (GallVpnStore), XL Number: 6285946667469
+2025-09-08 11:03:03,954 - PURCHASE_FAILED - User: 6915109343 (GallVpnStore), XL Number: 6285946667469, Package: Unli Turbo Vidio, Price: Rp 25,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-08 11:03:33,518 - QRIS_GENERATED - User: 6915109343 (GallVpnStore), XL Number: 6285946667469, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 11:04:28,495 - PURCHASE_FAILED - User: 6142128613 (Akpauu), XL Number: 6281779064103, Package: Xtra Hotrod Special 4GB, Original Price: Rp 0, Paid: Rp 0, Method: BALANCE, Error: Failed to initiate payment. Possible reasons: Insufficient balance, package no longer available, or network connectivity issues.
+2025-09-08 11:08:03,588 - LOGIN - User: 5881666389 (RozTun), XL Number: 6287722067829
+2025-09-08 11:10:30,122 - LOGIN - User: 286296291 (Z_Hidayat), XL Number: 6287775294390
+2025-09-08 11:15:07,265 - PURCHASE_FAILED - User: 6162307869 (Simbahoman), XL Number: 6285954293385, Package: Super, Price: Rp 8,500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-08 11:24:58,710 - LOGIN - User: 1767370877 (KJub09), XL Number: 628174877698
+2025-09-08 11:38:42,514 - LOGIN - User: 1417954258 (Ydkax), XL Number: 6287854861739
+2025-09-08 11:47:43,783 - LOGIN - User: 7193010799 (YogiSpirit), XL Number: 6287797385434
+2025-09-08 12:08:59,618 - LOGIN - User: 7257659431 (ZerBbs), XL Number: 6281946167522
+2025-09-08 12:10:20,915 - LOGIN - User: 6076440619 (barbex_id), XL Number: 628174885817
+2025-09-08 12:21:46,623 - PURCHASE_FAILED - User: 6713075627 (POLRI1), XL Number: 6287822147983, Package: Internet 4GB, Original Price: Rp 2,500, Paid: Rp 2,500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-08 12:23:05,518 - PURCHASE_FAILED - User: 6713075627 (POLRI1), XL Number: 6287822147983, Package: Premium, Price: Rp 13,500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-08 12:42:37,449 - LOGIN - User: 7280239507 (contolsatu), XL Number: 6287818546228
+2025-09-08 12:44:49,774 - QRIS_GENERATED - User: 7280239507 (contolsatu), XL Number: 6287818546228, Package: Super, Price: Rp 75,000
+2025-09-08 12:45:46,535 - PURCHASE_SUCCESS - User: 7280239507 (contolsatu), XL Number: 6287818546228, Package: Super, Price: Rp 75,000, Method: BALANCE
+2025-09-08 13:09:36,942 - LOGIN - User: 7626158820 (radiobalap69), XL Number: 628179634033
+2025-09-08 13:19:10,118 - LOGIN - User: 7696395003 (masrohim123), XL Number: 6287752784829
+2025-09-08 13:20:28,623 - LOGIN - User: 5448307847 (Semangatxkuy), XL Number: 6287824125789
+2025-09-08 13:54:23,699 - LOGIN - User: 6343065438 (hlzblade), XL Number: 6287826240514
+2025-09-08 14:22:53,412 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287822011894
+2025-09-08 14:24:30,653 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287822011894, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 14:42:54,613 - LOGIN - User: 6915109343 (GallVpnStore), XL Number: 6281944418722
+2025-09-08 14:43:36,349 - QRIS_GENERATED - User: 6915109343 (GallVpnStore), XL Number: 6281944418722, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 14:46:51,926 - LOGIN - User: 5445233143 (rieeds), XL Number: 6287775525591
+2025-09-08 16:51:08,104 - LOGIN - User: 5218960178 (idphrekaer), XL Number: 6285943218804
+2025-09-08 17:01:57,555 - LOGIN - User: 1884263908 (Ompongss), XL Number: 6281931983170
+2025-09-08 17:07:04,841 - PURCHASE_FAILED - User: 1884263908 (Ompongss), XL Number: 6281931983170, Package: Unli Turbo Vidio, Price: Rp 25,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-08 17:19:06,761 - PURCHASE_FAILED - User: 1884263908 (Ompongss), XL Number: 6281931983170, Package: Main Quota 25GB, Original Price: Rp 0, Paid: Rp 0, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 111)
+2025-09-08 17:30:08,364 - LOGIN - User: 6343065438 (hlzblade), XL Number: 6287826240514
+2025-09-08 17:39:55,918 - LOGIN - User: 849139499 (LupercaliaX), XL Number: 6287716144510
+2025-09-08 18:14:03,924 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6285921614159
+2025-09-08 18:14:59,257 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6285921614159, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 19:24:15,095 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6285930943277
+2025-09-08 19:25:46,882 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6285930943277, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-08 19:32:45,154 - PURCHASE_FAILED - User: 864140704 (bangsatlo11), XL Number: 6281917411250, Package: Unli Turbo Iflix, Price: Rp 25,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-08 19:42:27,501 - LOGIN - User: 6915109343 (GallVpnStore), XL Number: 6287731551668
+2025-09-08 20:25:04,239 - LOGIN - User: 5049434247 (Paraboy98K), XL Number: 6281779878682
+2025-09-08 21:56:24,893 - LOGIN - User: 144719966 (wahyudi_cyclose), XL Number: 6285945959277
+2025-09-08 22:01:06,660 - LOGIN - User: 1884263908 (Ompongss), XL Number: 6281931983170
+2025-09-08 22:32:37,838 - LOGIN - User: 8144614136 (uaieoue), XL Number: 6287752520057
+2025-09-09 00:16:31,909 - LOGIN - User: 7077415537 (nathan2248), XL Number: 6281946235336
+2025-09-09 00:44:47,031 - PURCHASE_FAILED - User: 6161620161 (Wibu_yapping), XL Number: 6287757640975, Package: YouTube, Price: Rp 25,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-09 00:49:03,019 - LOGIN - User: 885156255 (doystorevpn), XL Number: 6287771494135
+2025-09-09 00:49:39,340 - QRIS_GENERATED - User: 885156255 (doystorevpn), XL Number: 6287771494135, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-09 08:10:42,271 - LOGIN - User: 1224570209 (Zabid88), XL Number: 6287777451521
+2025-09-09 09:49:24,247 - LOGIN - User: 5076744063 (Rialriz), XL Number: 6281772887639
+2025-09-09 09:51:31,123 - PURCHASE_FAILED - User: 5076744063 (Rialriz), XL Number: 6281772887639, Package: Basic, Price: Rp 500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-09 10:07:30,326 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287727102087
+2025-09-09 10:10:18,520 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287727102087, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-09 10:20:24,678 - LOGIN - User: 6581866903 (amdrx6600xt), XL Number: 6285959017116
+2025-09-09 12:56:25,853 - LOGIN - User: 885341248 (Faozan93), XL Number: 6287711375181
+2025-09-09 13:31:20,023 - PURCHASE_SUCCESS - User: 6581866903 (amdrx6600xt), XL Number: 6285959017116, Package: YouTube, Price: Rp 15,000, Method: BALANCE
+2025-09-09 13:49:21,300 - QRIS_GENERATED - User: 1598339693 (DinXiee), XL Number: 6287737259173, Package: Basic, Price: Rp 500
+2025-09-09 15:18:51,423 - LOGIN - User: 885156255 (doydorstore), XL Number: 6287704386572
+2025-09-09 17:08:53,130 - LOGIN - User: 7193010799 (YogiSpirit), XL Number: 6281977362056
+2025-09-09 18:41:39,160 - LOGIN - User: 5261918243 (Itsbad_Dorace), XL Number: 6287751669434
+2025-09-09 18:42:01,594 - LOGIN - User: 7100599305 (techbot123), XL Number: 6287829482068
+2025-09-09 18:46:23,912 - LOGIN - User: 7466866353 (arbura), XL Number: 6285932699226
+2025-09-09 18:47:53,740 - PURCHASE_FAILED - User: 5261918243 (Itsbad_Dorace), XL Number: 6287751669434, Package: Basic, Price: Rp 500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-09 18:48:59,089 - LOGIN - User: 6759689122 (lilih2), XL Number: 6285922760360
+2025-09-09 18:50:32,054 - PURCHASE_FAILED - User: 6759689122 (lilih2), XL Number: 6285922760360, Package: Basic, Price: Rp 500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-09 18:51:36,100 - LOGIN - User: 7682901006 (xqt21), XL Number: 6287878976820
+2025-09-09 18:58:36,940 - LOGIN - User: 5634882799 (xxx_bnm), XL Number: 6285966941715
+2025-09-09 19:00:22,674 - PURCHASE_FAILED - User: 6759689122 (lilih2), XL Number: 6285922760360, Package: HotRod 500MB, Original Price: Rp 5,700, Paid: Rp 5,700, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-09 19:02:07,956 - PURCHASE_FAILED - User: 6759689122 (lilih2), XL Number: 6285922760360, Package: HotRod 500MB, Original Price: Rp 5,700, Paid: Rp 5,700, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-09 19:04:01,056 - PURCHASE_SUCCESS - User: 6759689122 (lilih2), XL Number: 6285922760360, Package: HotRod 500MB, Original Price: Rp 5,700, Paid: Rp 5,000, Method: BALANCE
+2025-09-09 19:05:31,891 - PURCHASE_SUCCESS - User: 6759689122 (lilih2), XL Number: 6285922760360, Package: Basic, Price: Rp 500, Method: BALANCE
+2025-09-09 19:05:36,006 - LOGIN - User: 6834740674 (Panda_20199), XL Number: 6287837806676
+2025-09-09 19:08:53,497 - PURCHASE_SUCCESS - User: 5634882799 (xxx_bnm), XL Number: 6285966941715, Package: Super, Price: Rp 125,000, Method: BALANCE
+2025-09-09 19:11:21,199 - PURCHASE_SUCCESS - User: 5634882799 (xxx_bnm), XL Number: 6285966941715, Package: Standard, Price: Rp 85,000, Method: BALANCE
+2025-09-09 19:13:27,451 - LOGIN - User: 5634882799 (xxx_bnm), XL Number: 6285945077937
+2025-09-09 19:14:04,174 - LOGIN - User: 1633716854 (bangjdii2), XL Number: 6287739690545
+2025-09-09 19:14:49,583 - PURCHASE_FAILED - User: 1633716854 (bangjdii2), XL Number: 6287739690545, Package: Basic, Price: Rp 500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-09 19:17:00,977 - PURCHASE_SUCCESS - User: 1633716854 (bangjdii2), XL Number: 6287739690545, Package: YouTube, Price: Rp 15,000, Method: BALANCE
+2025-09-09 19:21:19,685 - LOGIN - User: 1513767374 (ag6675), XL Number: 6287729770907
+2025-09-09 19:38:32,033 - LOGIN - User: 6355497501 (AcilOffcial), XL Number: 6287733994799
+2025-09-09 19:44:37,891 - PURCHASE_FAILED - User: 1321318824 (nuyulajalah), XL Number: 6287701087801, Package: Xtra Combo Flex Ultra, Original Price: Rp 0, Paid: Rp 0, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 111)
+2025-09-09 19:50:17,121 - LOGIN - User: 1469336564 (KANGCUT100), XL Number: 6281774814248
+2025-09-09 19:54:00,433 - LOGIN - User: 7214551498 (sofianlbs), XL Number: 6287751137155
+2025-09-09 19:59:18,521 - LOGIN - User: 7214551498 (sofianlbs), XL Number: 6287751137155
+2025-09-09 20:02:56,992 - PURCHASE_FAILED - User: 7214551498 (sofianlbs), XL Number: 6287751137155, Package: Xtra Combo Plus Proteksi 20GB, Original Price: Rp 89,000, Paid: Rp 1, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-09 20:04:36,986 - PURCHASE_FAILED - User: 7214551498 (sofianlbs), XL Number: 6287751137155, Package: YouTube, Price: Rp 25,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-09 20:05:12,548 - LOGIN - User: 5448307847 (Semangatxkuy), XL Number: 6287824125789
+2025-09-09 20:05:34,084 - LOGIN - User: 972425394 (hurii77), XL Number: 6281901009080
+2025-09-09 21:30:12,792 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287721883358
+2025-09-09 21:33:24,822 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287721883358, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-09 21:41:27,137 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6287738855225
+2025-09-09 21:42:05,681 - QRIS_GENERATED - User: 6922202070 (LightYagamiKun), XL Number: 6287738855225, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-09 22:23:41,147 - LOGIN - User: 6576684232 (Ryz872), XL Number: 6287874920625
+2025-09-09 23:07:33,480 - LOGIN - User: 1094972845 (Rewogireng), XL Number: 6287781930794
+2025-09-09 23:14:37,926 - LOGIN - User: 5261918243 (Itsbad_Dorace), XL Number: 6285943579814
+2025-09-09 23:48:17,568 - LOGIN - User: 8151140982 (Addgama), XL Number: 6287813226097
+2025-09-10 01:22:08,695 - LOGIN - User: 885156255 (doystorevpn), XL Number: 6285930409182
+2025-09-10 01:23:26,510 - QRIS_GENERATED - User: 885156255 (doystorevpn), XL Number: 6285930409182, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-10 01:42:01,420 - LOGIN - User: 1176909454 (yuuki_898), XL Number: 6287889461975
+2025-09-10 03:20:24,478 - LOGIN - User: 927723014 (anon6897), XL Number: 6287781605730
+2025-09-10 04:23:55,967 - PURCHASE_FAILED - User: 5261918243 (Itsbad_Dorace), XL Number: 6285943579814, Package: Paket Harian S, Original Price: Rp 0, Paid: Rp 500, Method: BALANCE, Error: Failed to initiate payment. Possible reasons: Insufficient balance, package no longer available, or network connectivity issues.
+2025-09-10 04:25:19,186 - PURCHASE_FAILED - User: 5261918243 (Itsbad_Dorace), XL Number: 6285943579814, Package: Xtra Hotrod Special XL, 7hr, Original Price: Rp 0, Paid: Rp 500, Method: BALANCE, Error: Failed to initiate payment. Possible reasons: Insufficient balance, package no longer available, or network connectivity issues.
+2025-09-10 04:25:50,291 - PURCHASE_FAILED - User: 5261918243 (Itsbad_Dorace), XL Number: 6285943579814, Package: Xtra Hotrod Special XL, 7hr, Original Price: Rp 0, Paid: Rp 0, Method: BALANCE, Error: Failed to initiate payment. Possible reasons: Insufficient balance, package no longer available, or network connectivity issues.
+2025-09-10 04:26:33,449 - PURCHASE_FAILED - User: 5261918243 (Itsbad_Dorace), XL Number: 6285943579814, Package: Unlimited Turbo Ultimate, Original Price: Rp 0, Paid: Rp 0, Method: BALANCE, Error: Failed to initiate payment. Possible reasons: Insufficient balance, package no longer available, or network connectivity issues.
+2025-09-10 04:47:14,125 - LOGIN - User: 885156255 (doystorevpn), XL Number: 6287751133838
+2025-09-10 04:48:23,881 - QRIS_GENERATED - User: 885156255 (doystorevpn), XL Number: 6287751133838, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-10 06:02:37,843 - LOGIN - User: 772978850 (Hmn_Nv), XL Number: 6287822233072
+2025-09-10 07:14:05,196 - LOGIN - User: 8144614136 (uaieoue), XL Number: 6287752520057
+2025-09-10 07:17:27,305 - PURCHASE_FAILED - User: 6355497501 (AcilOffcial), XL Number: 6287733994799, Package: YouTube, Price: Rp 25,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-10 07:20:10,284 - PURCHASE_FAILED - User: 6355497501 (AcilOffcial), XL Number: 6287733994799, Package: Internet 4GB, Original Price: Rp 2,500, Paid: Rp 2,500, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-10 07:21:20,233 - PURCHASE_FAILED - User: 6355497501 (AcilOffcial), XL Number: 6287733994799, Package: Internet 1GB, Original Price: Rp 2,000, Paid: Rp 2,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 213)
+2025-09-10 07:29:48,231 - LOGIN - User: 885156255 (doystorevpn), XL Number: 6287822010970
+2025-09-10 07:30:26,343 - QRIS_GENERATED - User: 885156255 (doystorevpn), XL Number: 6287822010970, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-10 07:39:42,004 - LOGIN - User: 885156255 (doystorevpn), XL Number: 6287810506802
+2025-09-10 07:40:25,856 - QRIS_GENERATED - User: 885156255 (doystorevpn), XL Number: 6287810506802, Package: Unli Turbo Vidio, Price: Rp 25,000
+2025-09-10 08:23:02,041 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6281907769434
+2025-09-10 08:30:28,182 - LOGIN - User: 7077415537 (nathan2248), XL Number: 6281946235336
+2025-09-10 08:30:57,767 - LOGIN - User: 6922202070 (LightYagamiKun), XL Number: 6281907769434
+2025-09-10 08:32:17,643 - LOGIN - User: 885156255 (doystorevpn), XL Number: 6287704386572
+2025-09-11 04:30:10,498 - LOGIN - User: 6628726470 (AKTVPNSTORE1), XL Number: 6285945785543
+2025-09-11 04:37:56,329 - PURCHASE_FAILED - User: 6628726470 (AKTVPNSTORE1), XL Number: 6285945785543, Package: BIZ Starter, Original Price: Rp 49,000, Paid: Rp 49,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-11 05:00:28,672 - LOGIN - User: 2052641683 (cuankirebus), XL Number: 6287704386572
+2025-09-11 05:01:21,545 - PURCHASE_FAILED - User: 2052641683 (cuankirebus), XL Number: 6287704386572, Package: Unli Turbo Vidio, Price: Rp 25,000, Method: BALANCE, Error: ❌ Purchase failed (Error Code: 135)
+2025-09-11 05:35:57,657 - LOGIN - User: 1176909454 (yuuki_898), XL Number: 6287889461975
+2025-09-11 08:35:53,635 - LOGIN - User: 7257659431 (ZerBbs), XL Number: 6287767386906
+2025-09-11 20:49:00,013 - LOGIN - User: 5634882799 (xxx_bnm), XL Number: 6285945077937
+2025-09-11 21:14:58,673 - LOGIN - User: 1598339693 (DinXiee), XL Number: 6287822010963
+2025-09-11 21:55:08,702 - LOGIN - User: 6076440619 (barbex_id), XL Number: 628174885817
+2025-09-11 22:58:04,634 - LOGIN - User: 1363213971 (Alanas_one), XL Number: 6287815244187
+2025-09-11 23:07:32,898 - LOGIN - User: 1884263908 (Ompongss), XL Number: 6281931983170
+2025-09-11 23:14:33,989 - PURCHASE_SUCCESS - User: 1884263908 (Ompongss), XL Number: 6281931983170, Package: BONUS #TraktiranXL 28th Anniversary, Original Price: Rp 0, Paid: Rp 500, Method: BALANCE
+2025-09-11 23:22:33,778 - LOGIN - User: 1884263908 (Ompongss), XL Number: 6287763745155
+2025-09-11 23:24:18,494 - PURCHASE_SUCCESS - User: 1884263908 (Ompongss), XL Number: 6287763745155, Package: BONUS #TraktiranXL 28th Anniversary, Original Price: Rp 0, Paid: Rp 500, Method: BALANCE
+2025-09-12 00:02:25,870 - LOGIN - User: 927723014 (anon6897), XL Number: 6287781605730
+2025-09-12 04:16:47,393 - LOGIN - User: 6162307869 (Simbahoman), XL Number: 6285954293385
+2025-09-12 07:28:52,314 - LOGIN - User: 972425394 (hurii77), XL Number: 6281901009080
+2025-09-12 09:33:25,128 - LOGIN - User: 1725426152 (Him0i), XL Number: 6287870325059
+2025-09-12 16:16:13,594 - LOGIN - User: 1176909454 (yuuki_898), XL Number: 6287889461975
+2025-09-12 17:49:12,994 - LOGIN - User: 5627481033 (sshaxor), XL Number: 6287882528648
+2025-09-12 19:48:30,191 - LOGIN - User: 1823567683 (forsa_ax), XL Number: 6287853721656
+2025-09-13 09:15:01,216 - LOGIN - User: 6969746528 (Thomass148), XL Number: 6287896927234
+2025-09-13 09:16:06,427 - QRIS_GENERATED - User: 6969746528 (Thomass148), XL Number: 6287896927234, Package: 🔥 HOT! Unli Turbo Vidio, Price: Rp 25,000
+2025-09-13 10:41:45,609 - LOGIN - User: 6355497501 (AcilOffcial), XL Number: 6287733994799
+2025-09-13 13:05:40,787 - LOGIN - User: 885156255 (doystorevpn), XL Number: 6287704386572
+2025-09-13 13:12:14,140 - LOGIN - User: 6583056385 (Ikhsan_key), XL Number: 6287864010377
+2025-09-13 15:39:56,239 - QRIS_GENERATED - User: 6583056385 (Ikhsan_key), XL Number: 6287864010377, Package: 🔥 HOT! Unli Turbo Vidio, Price: Rp 25,000
+2025-09-13 19:40:57,935 - LOGIN - User: 1767370877 (KJub09), XL Number: 628174877698
+2025-09-13 20:30:10,045 - LOGIN - User: 6142128613 (Akpauu), XL Number: 6281779064103
+2025-09-13 21:06:50,842 - LOGIN - User: 1598339693 (DinXiee), XL Number: 6287785232237
+2025-09-13 21:09:54,045 - QRIS_GENERATED - User: 1598339693 (DinXiee), XL Number: 6287785232237, Package: Super, Price: Rp 8,500
+2025-09-13 21:10:45,738 - QRIS_GENERATED - User: 1598339693 (DinXiee), XL Number: 6287785232237, Package: Super, Price: Rp 8,500
+2025-09-13 22:25:34,594 - QRIS_GENERATED - User: 1598339693 (DinXiee), XL Number: 6287785232237, Package: Premium, Price: Rp 50,000
+2025-09-14 01:04:00,823 - LOGIN - User: 1725426152 (Him0i), XL Number: 6287870325059
+2025-09-14 06:39:30,284 - LOGIN - User: 876081450 (haluboy), XL Number: 6287831358695
+2025-09-14 07:15:39,755 - LOGIN - User: 876081450 (haluboy), XL Number: 6285945250251
+2025-09-14 07:26:12,141 - LOGIN - User: 6581866903 (amdrx6600xt), XL Number: 6285959017116
+2025-09-14 07:33:53,809 - QRIS_GENERATED - User: 6581866903 (amdrx6600xt), XL Number: 6285959017116, Package: YouTube, Price: Rp 15,000
+2025-09-14 09:17:14,848 - LOGIN - User: 1094972845 (Rewogireng), XL Number: 6287781930794
+2025-09-14 10:38:44,677 - LOGIN - User: 6162307869 (Simbahoman), XL Number: 6287794566831
+2025-09-14 12:45:08,926 - LOGIN - User: 6581866903 (amdrx6600xt), XL Number: 6287848763631
+2025-09-14 12:54:10,028 - QRIS_GENERATED - User: 6581866903 (amdrx6600xt), XL Number: 6287848763631, Package: 🔥 HOT! Unli Turbo Vidio, Price: Rp 25,000
+2025-09-14 15:32:57,562 - LOGIN - User: 5568786386 (cillnext), XL Number: 6281999941520
+2025-09-14 15:35:06,273 - QRIS_GENERATED - User: 5568786386 (cillnext), XL Number: 6281999941520, Package: 🔥 HOT! Unli Turbo Vidio, Price: Rp 25,000
+2025-09-15 14:43:39,358 - LOGIN - User: 885156255 (doystorevpn), XL Number: 6287704386572
+2025-09-15 14:45:35,557 - LOGIN - User: 5568786386 (cillnext), XL Number: 6287812700809
+2025-09-15 14:46:28,491 - QRIS_GENERATED - User: 5568786386 (cillnext), XL Number: 6287812700809, Package: 🔥 HOT! Unli Turbo Vidio, Price: Rp 25,000
+2025-09-15 15:54:46,432 - LOGIN - User: 1564275538 (mhmdsairii), XL Number: 6281932809354
+2025-09-15 17:13:52,855 - LOGIN - User: 927723014 (anon6897), XL Number: 6287781605730
+2025-09-15 17:38:08,174 - QRIS_GENERATED - User: 927723014 (anon6897), XL Number: 6287781605730, Package: 🔥 HOT! BIZ Lite, Price: Rp 35,000
+2025-09-15 17:59:44,242 - LOGIN - User: 6355497501 (AcilOffcial), XL Number: 6287733994799
+2025-09-15 18:31:39,448 - LOGIN - User: 1627300973 (yhujae), XL Number: 6285955005701
+2025-09-15 18:51:58,081 - QRIS_GENERATED - User: 1627300973 (yhujae), XL Number: 6285955005701, Package: YouTube, Price: Rp 25,000
+2025-09-15 20:55:57,923 - LOGIN - User: 1363213971 (Alanas_one), XL Number: 6287754493581
