@@ -1261,7 +1261,7 @@ async def send_error_to_admin(message: str):
             logger.error("Failed to send error to admin: %s", e)
 
 # XUT package code
-PACKAGE_FAMILY_CODE = "08a3b1e6-8e78-4e45-a540-b40f06871cfe"
+PACKAGE_FAMILY_CODE = "f3303d95-8454-4e80-bb25-38513d358a11"
 
 def get_package_xut():
     global api_key
@@ -3003,4 +3003,5 @@ def main() -> None:
 if __name__ == "__main__":
     # Start the bot
     main()
+
 
